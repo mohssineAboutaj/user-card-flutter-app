@@ -88,6 +88,30 @@ class Home extends StatelessWidget {
 									"name": "123, x street, x city",
 									"icon": Icons.location_on,
 								}),
+								SizedBox(
+									height: 15,
+								),
+								RaisedButton(
+									color: Colors.red[500],
+									onPressed: () {},
+									child: Row(
+										children: <Widget>[
+											Padding(
+												padding: EdgeInsets.all(10),
+												child: Icon(
+													Icons.send,
+													color: Colors.white,
+												),
+											),
+											Padding(
+												padding: EdgeInsets.all(10),
+												child: Text('Send Mssage', style: TextStyle(
+													color: Colors.white,
+												)),
+											),
+										],
+									),
+								)
 							],
 						),
 					),					
