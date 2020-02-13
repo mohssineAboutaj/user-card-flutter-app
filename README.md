@@ -1,6 +1,6 @@
 # user_card_flutter_app
 
-A sample Flutter project.
+A sample Flutter project to show user info in card.
 
 ## Supported Platforms
 + Android
